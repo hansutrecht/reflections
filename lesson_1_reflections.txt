@@ -1,0 +1,59 @@
+Cursus How to Use Git and GitHub
+van Udacity.
+
+Les 1
+Je kunt handmatig teksten vergelijken, maar er bestaat ook software om de snelheid en precisie te vergroten. Vooral bij lange bestanden is dit fijn. 
+
+Ga naar de opdrachtregel.
+
+Windows: 
+cd Downloads
+FC textold.txt textnew.txt
+(file compare)
+
+Mac Linux:
+cd Downloads
+diff -u textold.txt textnew.txt
+(-u maakt de output universeler, makkerlijker te lezen)
+Bij de tweede mogelijkheid geven + en - de toevoegingen en verwijderingen aan
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Acces makes you faster in correcting errors.
+It will make it easier to use earlier versions of program in a new project.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Automatically saving files helps in case of electric shut down. Or when you're mind is taken completely by a problem to solve - forgetfull.
+Manually saving makes shure saved versions are meaningfull.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+In writing code it is common to use seperate files that interconnect. A change in one file will have it's effect on an other file. It is convenient to see the changes in these files at once.
+Google Docs assumes all files can stand on its own. 
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+download een repository: dat is een verzameling bestanden en hun histories. in het voorbeeld de map asteroids.
+typ: git clone webadres
+bijv: git clone https://github.com/udacity/asteroids
+hiermee haal je de map binnen. 
+cd asteroids
+
+git log:  laat een overzicht zien van alle wijzigingen in tijd
+kies 2 bestanden om te vergelijken, pak de commit-codes.
+git diff codea codeb
+het vroegste bestand eerst.
+
+
+git log --stat
+ geeft meer details
+
+git checkout commitcode
+ om de actieve versie te veranderen.
+ keer terug naar de meest recente versie met git checkout master
+
+
+How might using version control make you more confident to make changes that could break something?
+Het wordt gemakkelijker om de oude versie terug te halen, mocht er iets misgaan.
+
