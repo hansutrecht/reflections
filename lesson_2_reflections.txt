@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+the command git init creates hidden files containing metadata, this way it prepares the directory.
+
+after use 'git status' to check it the folder is initialized.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+working directory is de reguliere directory, zonder git meta data.
+in de staging area staan bestanden waarop git zicht heeft, maar die nog niet zijn gecommit.
+de repository bevat de commits, de snapshots van alle bestanden
