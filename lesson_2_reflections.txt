@@ -9,3 +9,21 @@ How is the staging area different from the working directory and the repository?
 working directory is de reguliere directory, zonder git meta data.
 in de staging area staan bestanden waarop git zicht heeft, maar die nog niet zijn gecommit.
 de repository bevat de commits, de snapshots van alle bestanden
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+vergelijk de working directory met de staging area.
+gebruik hiervoor het commando 'git diff'. 
+'git add' om de bedoelde wijziging naar de staging area te verplaatsen 
+vergelijk de staging area met de commit: 'git diff --staged'
+
+dit maakt het gemakkelijker om te controleren wat je commit, en welke wijziging precies.
+let op dat je een wijziging tegelijk doorvoert.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+'git branch' laat zien welke branches er zijn en welke actief is (*)
+'git branch easy-mode' maakt een nieuwe branch
+'git checkout easy-mode' maakt van die nieuwe tak de actieve lijn.
+
+Branches: Als je een experimenteel onderdeel wilt toevoegen, of een andere taal probeert, of een andere versie (easy) wil aanhouden, zonder de oorspronkelijke lijn te beinvloeden.   
