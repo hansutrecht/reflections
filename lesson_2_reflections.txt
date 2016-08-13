@@ -26,4 +26,7 @@ What are some situations when branches would be helpful in keeping your history 
 'git branch easy-mode' maakt een nieuwe branch
 'git checkout easy-mode' maakt van die nieuwe tak de actieve lijn.
 
-Branches: Als je een experimenteel onderdeel wilt toevoegen, of een andere taal probeert, of een andere versie (easy) wil aanhouden, zonder de oorspronkelijke lijn te beinvloeden.   
+Branches: Als je een experimenteel onderdeel wilt toevoegen, of een andere taal probeert, of een andere versie (easy) wil aanhouden, zonder de oorspronkelijke lijn te beinvloeden. Keep work organised. unique features. To share an early version. 
+Je kunt ook collaborate with yourself. 
+Als de context verandert.
+Als je een tijdje aan een ander onderdeel wilt werken. 
