@@ -34,3 +34,9 @@ Als je een tijdje aan een ander onderdeel wilt werken.
 How do the diagrams help you visualize the branch structure?
 they show how branches are connected. what commits can be reached in the tree. some commits may be headless: een nieuwe commit aan een oudere commit zonder branch-naam.
  
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+beide branches worden samengevoegd. in een nieuwe commit die de master wordt. de actieve branch is leidend.
+de toevoegingen en verwijderde passages in beide branches worden vergeleken met elkaar en met de originele commit.
+
+s
+
