@@ -38,5 +38,11 @@ What is the result of merging two branches together? Why do we represent it in t
 beide branches worden samengevoegd. in een nieuwe commit die de master wordt. de actieve branch is leidend.
 de toevoegingen en verwijderde passages in beide branches worden vergeleken met elkaar en met de originele commit.
 
-s
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging's pro: two people working on different parts of the projects, that won't interfere. fast, precise.
+Manual merging: if two people made changes in the same part of the code, git doesn't know what to choose and asks for help.
+using signs in the concerning file.
+(bijv //////HEAD)
+Verwijder wat weg moet, verander wat moet blijven, en sla opnieuw op. 
+
 
