@@ -6,4 +6,11 @@ you could pull changes made by other participants while you don't want this.
 you want to stay in controll of the commits.
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
+Een branch is een afsplitsing in een reeks commits. Zo is het mogelijk om een experiment uit te voeren, wijzigingen aan te brengen die de hoofddraad niet beinvloeden. Brancher kun je ook weer samenvoegen. Bijvoorbeeld als collega's aan 1 project hebben gewerkt.
+
+Een clone is een kopie van een repository op githup op je eigen computer.
+Daardoor kun je lokaal werken.
+
+Een fork is een kopie van een andere repository, beide op Github. Die kun je lokaal binnenhalen (door clone) en bewerken. Je bent niet altijd bevoegd om andermans repository te bewerken.
